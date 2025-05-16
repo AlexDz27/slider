@@ -33,6 +33,7 @@ a {
   background-color: #eee;
 }
 
+/* То есть фишка в том, что мы транслейтим .slider__track. */
 .slider {
   overflow-x: hidden;
 }
