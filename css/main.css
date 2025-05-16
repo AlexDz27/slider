@@ -34,10 +34,12 @@ a {
 }
 
 .slider {
-  display: flex;
-  overflow-x: auto;
+  overflow-x: hidden;
 }
-.slide {
-  flex-shrink: 0;
-  width: 100%;
+.slider__track {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  /* column-gap: 20px; */
 }
